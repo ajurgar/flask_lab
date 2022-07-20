@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  {{ title }} </title>
+</head>
+<body>
+
+    <h1> Customer Orders</h1>
+
+    {% for order in all_orders %}
+       
+    
+    <section>
+
+        <p>
+            
+            <a href="orders/{{all_orders.index(order)}}">{{order.customer_name}}</a>:  <b>{{order.order_date}}</b>, <b>{{order.quantity}}</b>, <b>{{order.shoe_brand}}</b>, <b>{{order.model}}</b>
+        </p>
+    </section>
+  
+    {% endfor %}
+
+
+    
+</body>
+</html>

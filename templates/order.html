@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Order {{ title }}</title>
+</head>
+<body>
+    <h1> Customer Order </h1>
+
+
+    <section>
+
+        <p>
+            </a>{{order.customer_name}}:  <b>{{order.order_date}}</b>, <b>{{order.quantity}}</b>,<b>{{order.shoe_brand}}</b> , <b>{{order.model}}</b>
+        </p>
+        <a href="/orders">
+            <form action="back">
+                 <input class="btn" type="button" value="Back" />
+            </form>
+    </section>
+</body>
+</html>
