@@ -1,0 +1,17 @@
+body {
+    background: lightgray;
+    margin-top: 50px;
+    margin-left: 100px;
+    }
+
+p {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    color: black;
+        }
+      
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 3em;
+    color: darkred;
+        }
